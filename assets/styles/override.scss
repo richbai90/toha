@@ -13,3 +13,22 @@
 //     display: block;
 //   }
 // }
+
+p {
+  display: block;
+  text-align: justify;
+}
+
+div.right {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    margin: 1em;
+}
+
+div.left {
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    margin: 1em;
+}
